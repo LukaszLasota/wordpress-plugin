@@ -1,0 +1,119 @@
+<?xml version="1.0"?>
+<rss xmlns:g="http://base.google.com/ns/1.0" version="2.0">
+	<channel>
+		<title><![CDATA[158307ef32.xml]]></title>
+		<link><![CDATA[http://strefakursow.pl/plugin/comparer/partner_program/products/158307ef32.xml]]></link>
+		<item>
+			<title><![CDATA[Kurs PowerPoint 2013 od podstaw]]></title>
+			<link>http://strefakursow.pl/kursy/biurowe/kurs_powerpoint_2013_od_podstaw.html</link>
+			<description><![CDATA[podstawowe techniki pracy;dźwięki, animacje, filmy;wykresy i tabele]]></description>
+			<id>999</id>
+			<reviews>8 recenzji</reviews>
+			<price>45.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-PowerPoint-2013-od-podstaw.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-PowerPoint-2013-od-podstaw.jpg</image_linkB>
+			<product_type>Biurowe</product_type>
+		</item>
+		<item>
+			<title><![CDATA[Kurs Bootstrap 3 - responsywne strony]]></title>
+			<link>http://strefakursow.pl/kursy/web_design/kurs_bootstrap_3_-_responsywne_strony.html</link>
+			<description><![CDATA[nowoczesne strony WWW;efekty i animacje CSS;responsywny projekt]]></description>
+			<id>1000</id>
+			<reviews>74 recenzje</reviews>
+			<price>60.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-Bootstrap-3-responsywne-strony.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-Bootstrap-3-responsywne-strony.jpg</image_linkB>
+			<product_type>Web design</product_type>
+		</item>
+		<item>
+			<title><![CDATA[Kurs Photoshop dla fotografa]]></title>
+			<link>http://strefakursow.pl/kursy/fotografia/kurs_photoshop_dla_fotografa.html</link>
+			<description><![CDATA[tryby i opcje mieszania;wyostrzanie i tryb lab;korekcja i użycie kolorów]]></description>
+			<id>1001</id>
+			<reviews>14 recenzji</reviews>
+			<price>65.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-Photoshop-dla-fotografa.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-Photoshop-dla-fotografa.jpg</image_linkB>
+			<product_type>Fotografia</product_type>
+		</item>
+		<item>
+			<title><![CDATA[Kurs Outlook - efektywna praca]]></title>
+			<link>http://strefakursow.pl/kursy/biurowe/kurs_outlook_-_efektywna_praca.html</link>
+			<description><![CDATA[oszczedność czasu;wydajniejsza praca;pełna personalizacja]]></description>
+			<id>1014</id>
+			<reviews>11 recenzji</reviews>
+			<price>40.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-Outlook-efektywna-praca.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-Outlook-efektywna-praca.jpg</image_linkB>
+			<product_type>Biurowe</product_type>
+		</item>
+		<item>
+			<title><![CDATA[Produktywne tworzenie stron z LESS &amp; SASS]]></title>
+			<link>http://strefakursow.pl/kursy/web_design/produktywne_tworzenie_stron_z_less_sass.html</link>
+			<description><![CDATA[zapomnij o zwykłym CSS;zbuduj stronę od A do Z;zmień wygląd w 30 sekund]]></description>
+			<id>1028</id>
+			<reviews>39 recenzji</reviews>
+			<price>89.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Produktywne-tworzenie-stron-z-LESS-SASS.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Produktywne-tworzenie-stron-z-LESS-SASS.jpg</image_linkB>
+			<product_type>Web design</product_type>
+			<sale_price>69.00 zł</sale_price>
+		</item>
+		<item>
+			<title><![CDATA[Tworzenie profesjonalnych stron z WordPress]]></title>
+			<link>http://strefakursow.pl/kursy/cms/tworzenie_profesjonalnych_stron_z_wordpress.html</link>
+			<description><![CDATA[najpopularniejszy CMS;liczne dodatki;kompletna strona]]></description>
+			<id>1035</id>
+			<reviews>36 recenzji</reviews>
+			<price>70.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Tworzenie-profesjonalnych-stron-z-WordPress.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Tworzenie-profesjonalnych-stron-z-WordPress.jpg</image_linkB>
+			<product_type>CMS</product_type>
+		</item>
+		<item>
+			<title><![CDATA[Kurs C++ aplikacje bazodanowe]]></title>
+			<link>http://strefakursow.pl/kursy/programowanie/kurs_c_aplikacje_bazodanowe.html</link>
+			<description><![CDATA[połączenie SQL i C++;kompletna aplikacja;zaawansowane techniki]]></description>
+			<id>1039</id>
+			<reviews>12 recenzji</reviews>
+			<price>129.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-Cpp-tworzenie-aplikacji-bazodanowych.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-Cpp-tworzenie-aplikacji-bazodanowych.jpg</image_linkB>
+			<product_type>Programowanie</product_type>
+		</item>
+		<item>
+			<title><![CDATA[Kurs Efektywna praca w Sublime Text]]></title>
+			<link>http://strefakursow.pl/kursy/web_design/kurs_efektywna_praca_w_sublime_text.html</link>
+			<description><![CDATA[najlepszy edytor;liczne skróty;przydatne pluginy]]></description>
+			<id>1045</id>
+			<reviews>22 recenzje</reviews>
+			<price>50.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Efektywna-praca-w-Sublime-Text.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Efektywna-praca-w-Sublime-Text.jpg</image_linkB>
+			<product_type>Web design</product_type>
+		</item>
+		<item>
+			<title> <![CDATA[ Kurs WooCommerce - tworzenie motywów w praktyce ]]> </title>
+			<link> http://strefakursow.pl/kursy/cms/kurs_woocommerce_-_tworzenie_motywow_w_praktyce.html </link>
+			<description> <![CDATA[ kompletny motyw;nowoczesny styl;zgodny z WP Codex ]]> </description>
+			<id>1047</id>
+			<reviews>10 recenzji</reviews>
+			<price>119.00 zł</price>
+			<image_linkA> http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-WooCommerce-tworzenie-motywow-w-praktyce.jpg </image_linkA>
+			<image_linkB> http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-WooCommerce-tworzenie-motywow-w-praktyce.jpg </image_linkB>
+			<product_type>CMS</product_type>
+			<sale_price>99.00 zł</sale_price>
+		</item>
+		<item>
+			<title><![CDATA[Kurs Facebook Ads - reklama w praktyce]]></title>
+			<link>http://strefakursow.pl/kursy/e-marketing/kurs_facebook_ads_-_reklama_w_praktyce.html</link>
+			<description><![CDATA[zyskaj nowych klientów;przyciągaj ruch na stronę;zwiększ sprzedaż]]></description>
+			<id>1046</id>
+			<reviews>4 recenzje</reviews>
+			<price>119.00 zł</price>
+			<image_linkA>http://strefafilmy.s3.amazonaws.com/product_picture/shop/dvd_box/Kurs-Facebook-Ads-reklama-w-praktyce.jpg</image_linkA>
+			<image_linkB>http://strefafilmy.s3.amazonaws.com/product_picture/shop/box/Kurs-Facebook-Ads-reklama-w-praktyce.jpg</image_linkB>
+			<product_type>E-marketing</product_type>
+		</item>
+	</channel>
+</rss>

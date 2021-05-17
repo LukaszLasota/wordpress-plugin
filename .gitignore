@@ -1,0 +1,11 @@
+### ignore specific themes ###
+wp-content/themes/twentytwenty
+wp-content/themes/twentytwentyone
+
+### ignore node dependency directories ###
+wp-content/languages
+wp-content/upgrade
+wp-content/index.php
+ 
+### ignore config file ###
+wp-config.php
