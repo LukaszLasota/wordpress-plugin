@@ -29,8 +29,7 @@ class Skpp_Widget extends WP_Widget{
             echo $args['before_title'] . $title . $args['after_title'];
         }
 
-        echo "Test widgetu SKPP";
-        echo skpp_get_feed();
+        echo skpp_select_random_product();
 
         echo $args['after_widget'];
         
