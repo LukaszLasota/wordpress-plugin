@@ -33,3 +33,25 @@
    $rand = rand(0, skkp_count_products());
    return $rand;
  }
+
+ /**
+ * Pobiera jeden produkt;
+ */
+
+ function skpp_get_single_product(){
+   $products = skpp_get_feed()->channel;
+   $product = $products->item[skpp_select_random_product()];
+   $product_name = $product->title;
+   $product_link = $product->link;
+   $product_image = $product->image_linkB;
+   $product_features = $product->description;
+   $product_revievs = $product->reviews;
+   $product_price = $product->price;
+   if(! empty($product->sale_price)){
+      $product_sale_price = $product->sale_price;
+   }else{
+      $product_sale_price = '';
+   }
+
+   return array($product_name, $product_link, $product_image, $product_price, $product_features, $product_revievs, $product_sale_price);
+ }

@@ -29,11 +29,34 @@ class Skpp_Widget extends WP_Widget{
             echo $args['before_title'] . $title . $args['after_title'];
         }
 
-        echo skpp_select_random_product();
+       $product = skpp_get_single_product();
+
+       echo '<div class="skpp-single-prod">';
+            echo '<a rel="nofollow" href="' . $product[1] . '">';
+                echo '<span class="product_image">';
+                    echo ' <span class="product-image-overlay"></span>';
+                    echo '<img src="' . $product[2] . '" alt="' . $product[0] . '" />';
+                echo '</span> ';
+                echo '<span class="product-inner">';
+                    echo '<h3>' . $product[0] . '</h3>';
+                    echo '<ul>';
+                        echo $product[4];
+					echo '</ul>';
+                    echo '<span class="product-bottom-row">';
+                        echo '<span class="skpp-price">' . $product[3] . '</span>';
+                        echo '<span class="skpp-sale-price"><del>' . $product[6] . '</del></span>';
+                        echo '<span class="skpp-opinion">';
+                            echo '<span class="skpp-stars"></span>';
+                            echo '<span class="skpp-reviews">' . $product[5] . '</span>';
+                        echo '</span>';
+                    echo '</span>';
+                echo '</span>';
+            echo '</a>';
+       echo '</div>';
+
 
         echo $args['after_widget'];
-        
-        
+            
     }
 
     /* Formularz opcji widgetu*/ 
