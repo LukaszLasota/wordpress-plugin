@@ -40,10 +40,10 @@ class Skpp_Widget extends WP_Widget{
                 echo '<span class="product-inner">';
                     echo '<h3>' . $product[0] . '</h3>';
                     echo '<ul>';
-                        echo $product[4];
+                        echo skpp_create_product_description($product[4]);
 					echo '</ul>';
                     echo '<span class="product-bottom-row">';
-                        echo '<span class="skpp-price">' . $product[3] . '</span>';
+                        echo '<span class="skpp-price">' . skpp_trim_price($product[3]) . '</span>';
                         echo '<span class="skpp-sale-price"><del>' . $product[6] . '</del></span>';
                         echo '<span class="skpp-opinion">';
                             echo '<span class="skpp-stars"></span>';

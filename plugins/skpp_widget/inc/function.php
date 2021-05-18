@@ -55,3 +55,27 @@
 
    return array($product_name, $product_link, $product_image, $product_price, $product_features, $product_revievs, $product_sale_price);
  }
+
+
+/**
+ * Genereuje opis produktu
+ */
+
+ function skpp_create_product_description($data){
+   $features = explode(';', $data);
+   $list = '';
+   foreach($features as $feature){
+      $list .= '<li>' .  $feature . '</li>';
+   }
+   return $list;
+ }
+
+
+ /**
+ * Zwaraca obcietą cene
+ */
+
+ function skpp_trim_price($price){
+    $trim_price = str_replace(".00", "", $price);
+    return $trim_price;
+ }
