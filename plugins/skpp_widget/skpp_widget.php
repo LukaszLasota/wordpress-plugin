@@ -12,4 +12,5 @@ License: GPLv2 or later
 */
 
 include_once('inc/function.php');
+include_once('inc/menu.php');
 include_once('inc/widget.php');

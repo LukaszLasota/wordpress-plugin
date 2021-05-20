@@ -56,9 +56,18 @@
    return array($product_name, $product_link, $product_image, $product_price, $product_features, $product_revievs, $product_sale_price);
  }
 
+/**
+ * Generuje link partnerski
+ */
+
+ function skpp_create_link($link){
+   $link = $link . '?ref=' . get_option("skpp_partner_id");
+   return $link;
+ }
+
 
 /**
- * Genereuje opis produktu
+ * Generuje opis produktu
  */
 
  function skpp_create_product_description($data){

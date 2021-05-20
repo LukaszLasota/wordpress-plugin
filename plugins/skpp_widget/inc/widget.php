@@ -32,7 +32,7 @@ class Skpp_Widget extends WP_Widget{
        $product = skpp_get_single_product();
 
        echo '<div class="skpp-single-prod">';
-            echo '<a rel="nofollow" href="' . $product[1] . '">';
+            echo '<a rel="nofollow" href="' . skpp_create_link($product[1]) . '">';
                 echo '<span class="product_image">';
                     echo ' <span class="product-image-overlay"></span>';
                     echo '<img src="' . $product[2] . '" alt="' . $product[0] . '" />';
