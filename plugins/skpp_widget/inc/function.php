@@ -43,9 +43,15 @@
    $product = $products->item[skpp_select_random_product()];
    $product_name = $product->title;
    $product_link = $product->link;
-   $product_image = $product->image_linkB;
-   $product_features = $product->description;
-   $product_revievs = $product->reviews;
+   if ('skpp_box' == get_option( 'skpp_product_style') ){
+      $product_image = $product->image_linkB; //styl box
+      $product_features = $product->description;
+      $product_revievs = $product->reviews;
+   }else{
+      $product_image = $product->image_linkA; //styl DVD
+      $product_features = "";
+      $product_revievs = "";
+   };
    $product_price = $product->price;
    if(! empty($product->sale_price)){
       $product_sale_price = $product->sale_price;
@@ -69,9 +75,15 @@ function skpp_get_product_by_id($id){
    // print_r($product);
    $product_name = $product->title;
    $product_link = $product->link;
-   $product_image = $product->image_linkB;
-   $product_features = $product->description;
-   $product_revievs = $product->reviews;
+   if ('skpp_box' == get_option( 'skpp_product_style') ){
+      $product_image = $product->image_linkB; //styl box
+      $product_features = $product->description;
+      $product_revievs = $product->reviews;
+   }else{
+      $product_image = $product->image_linkA; //styl DVD
+      $product_features = "";
+      $product_revievs = "";
+   };
    $product_price = $product->price;
    if(! empty($product->sale_price)){
       $product_sale_price = $product->sale_price;

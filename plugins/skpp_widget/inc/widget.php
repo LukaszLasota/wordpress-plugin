@@ -29,9 +29,6 @@ class Skpp_Widget extends WP_Widget{
             echo $args['before_title'] . $title . $args['after_title'];
         }
 
-    //    $product = skpp_get_single_product();
-       
-    //    echo skpp_get_product_by_id(999);
 
     if($instance['product_id']){
         $product = skpp_get_product_by_id($instance['product_id']);
