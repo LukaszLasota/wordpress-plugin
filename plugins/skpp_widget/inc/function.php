@@ -56,6 +56,34 @@
    return array($product_name, $product_link, $product_image, $product_price, $product_features, $product_revievs, $product_sale_price);
  }
 
+
+ /**
+ * Pobiera jeden produkt z określonym ID;
+ */
+
+function skpp_get_product_by_id($id){
+   $products = skpp_get_feed()->channel;
+   $product_string = 'item[id="' . $id . '"]';
+   $product = $products->xpath($product_string);
+   $product = $product[0];
+   // print_r($product);
+   $product_name = $product->title;
+   $product_link = $product->link;
+   $product_image = $product->image_linkB;
+   $product_features = $product->description;
+   $product_revievs = $product->reviews;
+   $product_price = $product->price;
+   if(! empty($product->sale_price)){
+      $product_sale_price = $product->sale_price;
+   }else{
+      $product_sale_price = '';
+   }
+
+   return array($product_name, $product_link, $product_image, $product_price, $product_features, $product_revievs, $product_sale_price);
+ }
+
+
+
 /**
  * Generuje link partnerski
  */

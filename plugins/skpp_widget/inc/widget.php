@@ -29,7 +29,15 @@ class Skpp_Widget extends WP_Widget{
             echo $args['before_title'] . $title . $args['after_title'];
         }
 
-       $product = skpp_get_single_product();
+    //    $product = skpp_get_single_product();
+       
+    //    echo skpp_get_product_by_id(999);
+
+    if($instance['product_id']){
+        $product = skpp_get_product_by_id($instance['product_id']);
+    }else{
+        $product = skpp_get_single_product();
+    }
 
        echo '<div class="skpp-single-prod">';
             echo '<a rel="nofollow" href="' . skpp_create_link($product[1]) . '">';
@@ -73,6 +81,12 @@ class Skpp_Widget extends WP_Widget{
     <input type="text" id="<?php echo $this->get_field_id('title'); ?>"
         name="<?php echo $this->get_field_name('title'); ?>" value="<?php echo $instance['title']; ?>">
 </p>
+<!-- ID produktu -->
+<p>
+    <label for="product_id">ID produktu (Opcjonalnie) </label>
+    <input type="text" id="<?php echo $this->get_field_id('product_id'); ?>"
+        name="<?php echo $this->get_field_name('product_id'); ?>" value="<?php echo $instance['product_id']; ?>">
+</p>
 
 <?php
         
@@ -83,6 +97,7 @@ class Skpp_Widget extends WP_Widget{
     function update($new_instance, $old_instance){ 
         $instance = $old_instance;
         $instance['title'] = strip_tags($new_instance['title']);
+        $instance['product_id'] = strip_tags($new_instance['product_id']);
         return $instance;
     }
     
